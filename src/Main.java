@@ -3,9 +3,8 @@ public class Main {
         int currentAccount = 100;
         int refill = 1100;
         int totalAmount;
-        int bonusAmount = (refill / 100);
-        if
-        (refill > 1000) {
+        int bonusAmount = refill / 100;
+        if (refill > 1000) {
             totalAmount = currentAccount + refill + bonusAmount;
         } else {
             totalAmount = currentAccount + refill;
